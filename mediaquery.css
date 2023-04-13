@@ -1,0 +1,47 @@
+body {
+    background-color: violet
+    ;
+}
+div {
+    font-size: larger;
+    text-align: center;
+}
+div::after {
+    content: "welcome to the  demo";
+}
+
+@media (max-width:400px) {
+    body {
+        background-color: #fff;
+    }
+    div::after {
+        content:'vey small'
+    }
+}
+
+@media(400px ≤ width ≤ 760px) {
+    body{
+        background-color: yellowgreen;
+    }
+    div::after {
+        content: 'mid size device'
+    }
+}
+@media (min-width: 768px) {
+    /* if viewport is atleast 900px then this style will apply*/
+    body {
+        background-color: purple;
+    }
+}
+div::after {
+    content:"woah its working";
+}
+@media (min-width: 900px) {
+    
+    body {
+        background-color: aquamarine;
+    }
+}
+div::after {
+    content:"woah its working";
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class</title>
+    <style>
+        /* .hover:hover {
+            background-color:black;
+            color:white;
+        }
+        input:focus {
+            color: red;
+            background: #000;
+            font-size: 25px;
+        } */
+        /* a:hover {
+            color: blanchedalmond;
+        }
+        a:active {
+            color: red;
+        } */
+        /* a:visited {
+            color: black;
+        } */
+        /* a:nth-child(2n+1) {
+            color: yellow;
+        } */
+        p::after{
+           content: "-Chandra";
+            color: aqua;
+
+        }
+        p::before{
+           content: "-Chandra";
+            color: aqua;
+
+        }
+        p::selection{
+            background-color: black;
+            color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <!-- pseudo class  -->
+    <p class="hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. At doloribus, labore voluptatibus dolorem optio saepe corporis. Libero aliquid optio ratione.</p>
+    <input type="text"><br>
+    <hr>
+    <nav>
+        <a href="https://google.com">Google</a>
+    <a href="https://google.com">Google</a>
+    <a href="https://google.com">Google</a>
+    <a href="https://google.com">Google</a>
+    <a href="https://google.com">Google</a>
+    <a href="https://google.com">Google</a>
+    <a href="https://google.com">Google</a>
+    </nav>
+    <!--pseudo element  -->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, dolore architecto officia magnam modi ipsa fuga? Dolorem dolores in alias fugiat, suscipit vel consequatur necessitatibus quibusdam amet quis voluptatibus? Sunt laborum autem, obcaecati atque dolorem ad. Facilis perferendis numquam quam omnis veritatis delectus nulla nobis placeat, optio soluta provident aut!</p>
+</body>
+</html>

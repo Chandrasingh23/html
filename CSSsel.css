@@ -1,0 +1,23 @@
+/* Descedent selector */
+/* main p{
+color: rgb(70, 130, 182);
+} */
+/* child selector */
+h1>p{
+    color: blueviolet;
+}
+
+section + p{
+    color: red;
+}
+
+section ~ p {
+    color: rgb(175, 24, 74);
+}
+[target="blank"]{
+    color: pink;
+    text-decoration: none;
+}
+[alt~="PW"]{
+    background-color: #000000;
+}

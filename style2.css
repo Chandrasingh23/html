@@ -1,0 +1,28 @@
+/* Universal selector */
+* {
+    margin:0;
+    padding: 0;
+}
+/* /Element selector  */
+h1 {
+    color: rgb(250, 215, 220);
+}
+p{
+   color: rgb(132, 129, 134); 
+}
+/* Class selector */
+.pra{
+    color: rgb(126, 180, 72);
+}
+.Hello{
+    font-size: 30px;
+}
+/* ID selector */
+#id1{
+    color: rgb(148, 87, 87);
+    background-color: #fff;
+}
+/* Selector List */
+.class1, .class10, .class2{
+    
+}
